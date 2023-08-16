@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url(../fonts/Norse-Bold.otf);
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  height: 100vh;
+  background-image: url(../images/sidebar-background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  margin-top: 200px;
+  padding: 8px 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Norse Bold";
+  font-size: 80px;
+}
+
+img {
+  height: 100%;
+}
+
+.footer {
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+a {
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+.main-top, .main-bottom {
+  height: 35vh;
+  background-color: #f2f2f2;
+}
+
+.main-top {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 64px 40px;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.top-text {
+  width: 75%;
+}
+
+.main-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0 40px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 240px;
+  height: 48px;
+  margin-bottom: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #596d48;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.main-bottom a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #596d48;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 0 0 0 40px;
+}
+
+legend {
+  width: 100%;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  width: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+input {
+  width: 240px;
+  height: 28px;
+  margin: 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  outline: none;
+  padding: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
